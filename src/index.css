@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cairo:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #E53E3E;
+  --color-secondary: #2D3748;
+  --color-accent: #DD6B20;
+  --color-cream: #FFFDF7;
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-secondary font-sans transition-colors duration-300;
+  }
+}

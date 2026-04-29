@@ -1,0 +1,12 @@
+{
+  "name": "Miko House Kénitra",
+  "description": "The official website of Miko_House.Kénitra - Premium Fast Food in Kénitra, Morocco. Burritos, Shawarma, and more.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "bilingual",
+    "menu",
+    "contact-form"
+  ]
+}
